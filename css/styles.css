@@ -1,0 +1,45 @@
+.navbar-nav { width: 100%; justify-content: space-evenly; }
+
+.navbar-nav li a { border-bottom: 2px solid transparent; }
+
+.navbar-nav li a:hover { border-bottom-color: #FFF5D0; transition: all 1s ease-in-out 0s; }
+
+.nav-item { color: #FFF5D0 !important; justify-content: space-around; }
+
+.bg-dark { background-color: #0F222D !important; }
+
+.logo { display: inline-block; vertical-align: top; padding-right: 20px; }
+
+.jumbotron { background-color: #FFF5D0; }
+
+ol li { transition: 1s; }
+
+ol li:hover { background-color: #0F222D; color: #FFF5D0; border-radius: 5px; font-weight: 700; }
+
+.page-header { margin-top: 50px; }
+
+.row { display: flex; flex-wrap: wrap !important; padding: 10px; margin-top: 50px; margin-bottom: 50px; }
+
+.column { flex: 50%; padding: 0 1px; }
+
+h1 { font-weight: 400; margin-top: 20px; }
+
+.form-group { margin-top: 1rem; }
+
+.btn-dark { background-color: #0F222D; color: #FFF5D0; }
+
+.topSection { font-weight: 400; padding-left: 20px; margin-bottom: 50px; margin-top: 80px; color: #0F222D; }
+
+.card-body { background-color: #0F222D; color: #FFF5D0; }
+
+#agenda { padding-top: 1rem; padding-left: 0px; }
+
+#agenda div .agendaItem { background-color: #0F222D; color: #FFF5D0; font-weight: 400; font-size: 1rem; padding: 1rem; margin: 1rem; border: solid 1.5px #FFF5D0; border-radius: 5px; box-shadow: 3px 3px #183e5a; }
+
+.bandMembers { color: #FFF5D0; }
+
+.footer { background-color: #0F222D; display: flex; flex-flow: row nowrap; margin-block-start: 50px !important; justify-content: space-between; padding-top: 30px; }
+
+.footer .copyright { flex-grow: 35; text-align: left; color: #FFF5D0; }
+
+.footer .icon { flex-grow: 1; text-align: center; justify-content: space-between; }

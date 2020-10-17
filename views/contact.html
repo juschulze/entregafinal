@@ -1,0 +1,125 @@
+<!DOCTYPE html> <!--document version is html-->
+
+<html lang="en"> <!--language of website is English-->
+
+<head>    <!-- shows information about the website-->
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> 
+
+    <!--My CSS stylesheet-->
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!--Title of website that shows in the browser-->
+    <title>Echoes of Eden</title>
+</head>
+
+    <body> <!--this is where the information goes that the user of the website will see-->
+        <nav class="navbar navbar-expand-sm navbar-light bg-dark">
+            <img class="logo" src="../images/logo.png" alt=logo href="#"> <!--this is the logo-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mr-auto mt-2">
+                <li class="nav-item active">
+                  <a class="nav-item nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-item nav-link" href="new-releases.html">New Release</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item nav-link" href="shows.html">Shows</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item nav-link" href="about-us.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+        </nav> 
+
+        <div class="container">
+            <h1>Contact Us</h1> <!--this is the header for the contact form-->
+            <p>Send us a message for inquiries and bookings. We love to hear from you!</p>
+            <form target="_blank" action="https://formsubmit.co/jutta_schulze@gmx.net" method="POST"> <!--this is the contact form-->
+                <div class="form-group">
+                  <label for="formGroupFirstName" data-toggle="tooltip" data-placement="right" title="Enter first name">First name</label>
+                  <input type="text" class="form-control" id="formGroupFirstName" placeholder="First name">
+                </div>
+                <div class="form-group">
+                  <label for="formGroupLastName" data-toggle="tooltip" data-placement="right" title="Enter last name">Last name</label>
+                  <input type="text" class="form-control" id="formGroupLastName" placeholder="Last name">
+                </div>
+
+                <div class="custom-control custom-radio">
+                    <p data-toggle="tooltip" data-placement="right" title="Choose if you prefer to be contacted via email or phone">Choose preferred contact type:</p>
+                    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadio1">Email</label>
+                  </div>
+                  <div class="custom-control custom-radio">
+                    <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadio2">Phone</label>
+                  </div>
+                
+                  <div class="form-group">
+                    <label for="formGroupEmail" data-toggle="tooltip" data-placement="right" title="Enter a valid email">Enter email:</label>
+                    <input type="email" class="form-control" id="formGroupEmail" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <label for="formGroupPhone" data-toggle="tooltip" data-placement="right" title="Enter a phone number with area code">Enter phone number with area code:</label>
+                    <input type="tel" class="form-control" id="formGroupPhone" placeholder="Phone">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1" data-toggle="tooltip" data-placement="right" title="Enter your message">Message:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-dark">Submit</button>
+              </form>
+
+        </div>
+        
+        <footer class="footer">
+            <div class="copyright">
+                <p>&copy Echoes of Eden 2020</p>   
+            </div>
+        
+            <div class="icon"> <!--this is the section where the social media icons go-->
+                <a href="https://open.spotify.com/artist/1oU9LvcSCWsC4YSacjqYNW?si=78QAFoLfRraSVbifTJ9saQ" target="_blank"> <!--this link takes user to artist's profile on spotify-->
+                <img src="../images/spotifyicon.svg" alt=EoE on Spotify width=30px height=30px>
+                </a>
+            </div>
+            
+            <div class="icon">   
+                <a href="https://www.youtube.com/watch?v=0IreQqEInZ0" target="_blank">
+                <img src="../images/youtubeicon.svg" alt=EoE on YouTube width=30px height=30px>
+                </a>    
+            </div> 
+        
+            <div class="icon">
+                <a href="https://www.facebook.com/KilltheIndustry/" target="_blank">
+                <img src="../images/facebookicon.svg" alt=EoE on Facebook width=30px height=30px>
+                </a>
+            </div>
+        </footer>
+    
+            <!--JavaScript-->
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+            <script>
+                $(document).ready(function(){
+                  $('[data-toggle="tooltip"]').tooltip();   
+                });
+                </script>
+
+    </body>
+</html>
